@@ -51,5 +51,32 @@ nav li:active {
 }
 
 #primerparrafo {
-    margin-top: 40px;
+    margin-top: 50px;
+}
+
+.presentacion {
+    margin: auto;
+    width: fit-content;
+    padding: 8px;
+    background-color: black;
+    color: rgba(136, 240, 126, 0.87);
+    border: 1px solid rgba(210, 224, 208, 0.87);
+    border-radius: 5px;
+}
+
+#cajaperfil {
+    background-color: black;
+    width: 40%;
+    margin: auto;
+    border: 1px solid rgba(210, 224, 208, 0.87);
+    border-radius: 5px;
+    border-top: 0;
+    border-left: 0;
+    padding: 10px;
+}
+
+#perfil {
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
