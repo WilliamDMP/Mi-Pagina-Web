@@ -79,4 +79,5 @@ nav li:active {
     color: white;
     text-align: center;
     padding: 10px;
+    text-shadow: 1.5px 1.5px 3px white;
 }
