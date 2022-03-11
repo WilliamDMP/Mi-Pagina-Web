@@ -81,3 +81,50 @@ nav li:active {
     padding: 10px;
     text-shadow: 1.5px 1.5px 3px white;
 }
+
+.dropdown {
+    display: block;
+}
+
+.dropdown-btn {
+    position: relative;
+    background-color: rgba(33, 248, 13, 0.87);
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.drpcontent {
+    position: absolute;
+    background-color: aliceblue;
+    padding: 6px;
+    display: none;
+    border-radius: 6px;
+    width: 98px;
+}
+
+.dropdown:hover .drpcontent {
+    display: block;
+}
+
+
+.dropdown-btn:hover {
+    background-color: rgba(136, 240, 126, 0.87);
+}
+
+.drpcontent a {
+    position:relative;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.dropdown:hover .drpcontent a {
+    display: block;
+}
+
+.drpcontent a:hover {
+    background-color: rgba(121, 110, 110, 0.315);
+}
