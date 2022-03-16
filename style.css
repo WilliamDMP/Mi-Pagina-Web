@@ -83,7 +83,7 @@ nav li:active {
 }
 
 .dropdown {
-    display: block;
+    display: inline;
 }
 
 .dropdown-btn {
@@ -106,6 +106,7 @@ nav li:active {
 
 .dropdown:hover .drpcontent {
     display: block;
+    margin-left: 200px;
 }
 
 
