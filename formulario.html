@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <nav class="navegacion">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <select name="" id="" class="idioma">
+            <option value="english" >English</option>
+            <option value="español" >Español</option>
+        </select>
+        <label class="idioma">Language/Idioma:</label>
+        <div class="dropdown">
+            <button class="dropdown-btn">Mas información</button>
+            <div class="drpcontent">
+                <a href="formulario.html">Ir al formulario</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+            </div>
+        </div>
+    </nav>
+    <div id="cajaformu">
+        <fieldset id="field">
+            <legend class="leyenda"><i>Datos de Contacto</i></legend>
+            <form action="" class="formu">
+                <label for="">Nombre</label>
+                <br>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre..." class="input">
+                <br>
+                <label for="">Compañia</label>
+                <br>
+                <input type="text" name="compania" id="compania" placeholder="Aquí el nombre de su empresa...." class="input">
+                <br>
+                <label for="">Correo</label>
+                <br>
+                <input type="email" name="correo" id="correo" placeholder="Ingrese su email.." class="input">
+                <br>
+                <label for="">Linkedin</label>
+                <br>
+                <input type="url" name="linkedin" id="linkedin" placeholder="Ingrese la dirección url....." class="input">
+                <br>
+                <button id="btn">Enviar</button>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
