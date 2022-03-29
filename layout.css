@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(20, 19, 19, 0.589);
+}
+
+h1 {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: rgba(40, 253, 21, 0.589);
+    padding: 10px;
+    border-radius: 8px;
+    width: fit-content;
+}
+.layout {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    grid-template-columns: auto auto;
+    background-color: rgba(20, 19, 19, 0.589);
+    color: white;
+    border-radius: 8px;
+}
+
+.caja {
+    background-color: black;
+    border: 1px solid rgba(158, 152, 152, 0.589);
+    box-shadow: 1px 1px 8px rgba(158, 152, 152, 0.589);
+    padding: 6px;
+    text-align: center;
+}
