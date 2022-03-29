@@ -4,6 +4,9 @@ html {
 body {
     background-color: rgba(20, 19, 19, 0.589);
     height: 100%;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 h1 {
@@ -20,6 +23,7 @@ h1 {
     display: grid;
     width: 80%;
     height: 80%;
+    padding: 10px;
     margin: auto;
     margin-top: 50px;
     grid-template-columns: auto auto;
@@ -28,7 +32,12 @@ h1 {
     grid-template-areas: "cb cb"
                          "cont lat"
                          "ft ft"       ;
-    
+    grid-template-columns: 75% 20%;                     
+    grid-template-rows: 10% 70% 10%;
+    gap: 5%;
+    border-radius: 8px;
+    border: 1px solid rgba(158, 152, 152, 0.589);
+    box-shadow: 1px 1px 8px rgba(230, 224, 224, 0.589);
 }
 
 .caja {
